@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Funciones</title>
+</head>
+<body>
+    <script>
+
+        function calcularSuperficie(ancho,alto){
+            var resultado = ancho * alto;
+            return(resultado);
+        }
+
+        function calcularTerreno(){
+            var inputAncho = prompt("Ingrese el Ancho del Terreno en metros ");
+            var inputAlto = prompt("Ingrese el alto del terreno en metros ");
+
+            var superficieTerreno = calcularSuperficie(inputAncho , inputAlto);
+            alert("La superficie del terreno es: " +  superficieTerreno);
+        }
+
+        calcularTerreno();
+
+
+  
+
+        //function CalcularSuperficie(ancho,alto){     //como crear una funcion
+
+        //var resultado = ancho * alto;       // ejecuta la operacion
+        //alert(resultado);                   // muestra el resultado
+        //}
+        //CalcularSuperficie(10,25);  // como se llama a una funcion que hemos creado
+        //CalcularSuperficie(10,15);  // puede ser en un solo valor o en distintos valores
+        //CalcularSuperficie(10,5);
+
+
+
+    // Primera forma de crear una funcion
+       //function CalcularSuperficie(){
+
+        //var ancho = 10;
+        //var alto = 25;
+        //var resultado = ancho * alto;
+        //alert(resultado);
+       //}
+        //CalcularSuperficie();
+    
+    </script>
+</body>
+</html>
